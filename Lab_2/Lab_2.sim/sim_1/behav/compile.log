@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_structural
+INFO: [VRFC 10-2458] undeclared symbol n0, assumed default net type wire [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:13]
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:13]
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:14]
+INFO: [VRFC 10-2458] undeclared symbol b, assumed default net type wire [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:16]
+ERROR: [VRFC 10-46] no0 is already declared [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:20]
+ERROR: [VRFC 10-46] or1 is already declared [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:25]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:26]
+ERROR: [VRFC 10-1040] module Mux_structural ignored due to previous errors [C:/Users/Alex/Desktop/EE 316/Labs/Lab_2/Lab_2.srcs/sources_1/new/Mux_structural.v:3]

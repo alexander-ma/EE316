@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Decoder_structural_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Decoder_structural" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="435115000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/tb_Decoder_structural/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Decoder_structural/a" type="logic">
+         <obj_property name="ElementShortName">a</obj_property>
+         <obj_property name="ObjectShortName">a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/b" type="logic">
+         <obj_property name="ElementShortName">b</obj_property>
+         <obj_property name="ObjectShortName">b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/c" type="logic">
+         <obj_property name="ElementShortName">c</obj_property>
+         <obj_property name="ObjectShortName">c</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Decoder_structural/d0" type="logic">
+         <obj_property name="ElementShortName">d0</obj_property>
+         <obj_property name="ObjectShortName">d0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d1" type="logic">
+         <obj_property name="ElementShortName">d1</obj_property>
+         <obj_property name="ObjectShortName">d1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d2" type="logic">
+         <obj_property name="ElementShortName">d2</obj_property>
+         <obj_property name="ObjectShortName">d2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d3" type="logic">
+         <obj_property name="ElementShortName">d3</obj_property>
+         <obj_property name="ObjectShortName">d3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d4" type="logic">
+         <obj_property name="ElementShortName">d4</obj_property>
+         <obj_property name="ObjectShortName">d4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d5" type="logic">
+         <obj_property name="ElementShortName">d5</obj_property>
+         <obj_property name="ObjectShortName">d5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d6" type="logic">
+         <obj_property name="ElementShortName">d6</obj_property>
+         <obj_property name="ObjectShortName">d6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Decoder_structural/d7" type="logic">
+         <obj_property name="ElementShortName">d7</obj_property>
+         <obj_property name="ObjectShortName">d7</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
