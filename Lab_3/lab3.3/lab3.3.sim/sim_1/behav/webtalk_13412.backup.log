@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Oct  6 04:15:15 2017
+# Process ID: 13412
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/lab3.3/lab3.3.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Alex/Desktop/EE 316/Labs/lab3.3/lab3.3.sim/sim_1/behav/xsim.dir/tb_LED_Display_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/lab3.3/lab3.3.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/lab3.3/lab3.3.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Alex/Desktop/EE -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Alex/Desktop/EE" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri Oct  6 04:15:15 2017...

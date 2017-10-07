@@ -1,0 +1,49 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Wed Oct  4 16:30:44 2017
+| Host         : Alex-PC running 64-bit major release  (build 9200)
+| Command      : report_methodology -file myAND_methodology_drc_routed.rpt -rpx myAND_methodology_drc_routed.rpx
+| Design       : myAND
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++--------+----------+-------------------------------------------------+------------+
+| Rule   | Severity | Description                                     | Violations |
++--------+----------+-------------------------------------------------+------------+
+| XDCC-5 | Warning  | User Non-Timing constraint/property overwritten | 2          |
++--------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property PACKAGE_PIN on a overrides a previous user property.
+New Source: C:/Users/Alex/Desktop/EE 316/Labs/Lab_3/Lab_3.srcs/constrs_1/new/part3.xdc (Line: 11)
+Previous Source: C:/Users/Alex/Desktop/EE 316/Labs/Lab_3/Lab_3.srcs/constrs_1/new/part2.xdc (Line: 6)
+Related violations: <none>
+
+XDCC-5#2 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property PACKAGE_PIN on b overrides a previous user property.
+New Source: C:/Users/Alex/Desktop/EE 316/Labs/Lab_3/Lab_3.srcs/constrs_1/new/part3.xdc (Line: 13)
+Previous Source: C:/Users/Alex/Desktop/EE 316/Labs/Lab_3/Lab_3.srcs/constrs_1/imports/Labs/Basys3_Master.xdc (Line: 2)
+Related violations: <none>
+
+

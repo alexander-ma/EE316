@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module tb_Decoder_structural;
-    // Inputs te be define as registers
+    // Inputs to be define as registers
     reg e;
     reg a;
     reg b;
