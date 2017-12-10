@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Nov 14 16:37:06 2017
+# Process ID: 18936
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15648 C:\Users\Alex\Desktop\EE 316\Labs\Lab_5\lab5.2\lab5.2.xpr
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/vivado.log
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.xpr}
+open_hw
+update_compile_order -fileset sources_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+source tb_CLA.tcl
+close_sim
+launch_simulation
+source tb_CLA.tcl
+close_sim
+launch_simulation
+source tb_CLA.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim

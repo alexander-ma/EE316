@@ -1,0 +1,19 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 5ea85c55bbd44a89b66edd13e7a7dd8d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_mux_state_machine_tb_behav xil_defaultlib.time_mux_state_machine_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 10 for port sw [C:/Users/Alex/Desktop/EE 316/Labs/Lab_4/lab4.3/lab4.3.srcs/sim_1/new/time_mux_state_machine_tb.v:14]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hexto7segment
+Compiling module xil_defaultlib.clk_div_disp
+Compiling module xil_defaultlib.time_mux_state_machine
+Compiling module xil_defaultlib.stopwatch
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.time_multiplex_main
+Compiling module xil_defaultlib.time_mux_state_machine_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot time_mux_state_machine_tb_behav

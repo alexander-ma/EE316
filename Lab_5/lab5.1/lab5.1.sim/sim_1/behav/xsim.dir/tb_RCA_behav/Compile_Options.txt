@@ -1,0 +1,1 @@
+-wto "91e5cef22257409a9e1d15d931dc6b3a" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "tb_RCA_behav" "xil_defaultlib.tb_RCA" "xil_defaultlib.glbl" -log "elaborate.log" 

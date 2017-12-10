@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Nov 10 13:49:40 2017
+# Process ID: 14516
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/lab5.1.runs/impl_1
+# Command line: vivado.exe -log RCA_4bits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RCA_4bits.tcl -notrace
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/lab5.1.runs/impl_1/RCA_4bits.vdi
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/lab5.1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RCA_4bits.tcl -notrace

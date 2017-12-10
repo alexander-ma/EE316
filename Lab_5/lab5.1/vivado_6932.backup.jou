@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Nov 14 16:18:20 2017
+# Process ID: 6932
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent968 C:\Users\Alex\Desktop\EE 316\Labs\Lab_5\lab5.1\lab5.1.xpr
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/vivado.log
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/lab5.1.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.1/lab5.1.runs/impl_1/RCA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

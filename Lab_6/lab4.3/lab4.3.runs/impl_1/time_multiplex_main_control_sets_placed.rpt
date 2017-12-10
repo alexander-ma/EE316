@@ -1,0 +1,76 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Dec  5 16:52:52 2017
+| Host         : Alex-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file time_multiplex_main_control_sets_placed.rpt
+| Design       : time_multiplex_main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           13 |
+| No           | No                    | Yes                    |               2 |            1 |
+| No           | Yes                   | No                     |              37 |           10 |
+| Yes          | No                    | No                     |               8 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+-------------------------------+-------------------------------+------------------+----------------+
+|        Clock Signal       |         Enable Signal         |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++---------------------------+-------------------------------+-------------------------------+------------------+----------------+
+|  clock/CLK                |                               | reset_IBUF                    |                1 |              2 |
+|  clk_IBUF_BUFG            |                               |                               |                2 |              2 |
+|  clock/time_c             |                               |                               |                2 |              4 |
+|  clock/time_c             | stopwatch_a/reg_d1[3]_i_1_n_0 | stopwatch_a/reg_d0[3]_i_1_n_0 |                2 |              4 |
+|  clock/time_c             | stopwatch_a/reg_d2[3]_i_1_n_0 |                               |                2 |              4 |
+|  clock/time_c             | stopwatch_a/reg_d3[3]_i_1_n_0 |                               |                2 |              4 |
+|  clock/time_c             | stopwatch_a/reg_d0[3]_i_2_n_0 | stopwatch_a/reg_d0[3]_i_1_n_0 |                3 |              4 |
+|  stopwatch_a/E[0]         |                               |                               |                2 |              7 |
+|  stopwatch_a/sseg[0]_0[0] |                               |                               |                2 |              7 |
+|  stopwatch_a/sseg[0][0]   |                               |                               |                2 |              7 |
+|  stopwatch_a/sseg[0]_1[0] |                               |                               |                3 |              7 |
+|  clk_IBUF_BUFG            |                               | clock/clear                   |                5 |             17 |
+|  clk_IBUF_BUFG            |                               | clock/time_count[0]_i_1_n_0   |                5 |             20 |
++---------------------------+-------------------------------+-------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     2 |
+| 4      |                     5 |
+| 7      |                     4 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

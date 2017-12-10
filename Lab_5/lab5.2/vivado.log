@@ -1,0 +1,329 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Nov 14 16:37:06 2017
+# Process ID: 18936
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15648 C:\Users\Alex\Desktop\EE 316\Labs\Lab_5\lab5.2\lab5.2.xpr
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/vivado.log
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 887.852 ; gain = 162.605
+open_hw
+update_compile_order -fileset sources_1
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736459A
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+ERROR: [Labtools 27-2149] File C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit not found. Check file name and file permissions.
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Nov 14 16:37:48 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Nov 14 16:38:36 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 14 16:39:41 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 14 16:41:19 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1/runme.log
+[Tue Nov 14 16:41:19 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736459A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736459A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_CLA' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_CLA_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/new/CLA_4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/imports/new/register_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sim_1/new/tb_CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_CLA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto b495db6356534fd59d7367921e97eb30 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_CLA_behav xil_defaultlib.tb_CLA xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register_logic
+Compiling module xil_defaultlib.CLA_4bits
+Compiling module xil_defaultlib.tb_CLA
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_CLA_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Alex/Desktop/EE -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Alex/Desktop/EE" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 14 16:44:29 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_CLA_behav -key {Behavioral:sim_1:Functional:tb_CLA} -tclbatch {tb_CLA.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_CLA.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_CLA_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1126.199 ; gain = 19.504
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_CLA' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_CLA_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/new/CLA_4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/imports/new/register_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sim_1/new/tb_CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_CLA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto b495db6356534fd59d7367921e97eb30 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_CLA_behav xil_defaultlib.tb_CLA xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register_logic
+Compiling module xil_defaultlib.CLA_4bits
+Compiling module xil_defaultlib.tb_CLA
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_CLA_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Alex/Desktop/EE -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Alex/Desktop/EE" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 14 16:46:49 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_CLA_behav -key {Behavioral:sim_1:Functional:tb_CLA} -tclbatch {tb_CLA.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_CLA.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_CLA_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_CLA' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj tb_CLA_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/new/CLA_4bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA_4bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sources_1/imports/new/register_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.srcs/sim_1/new/tb_CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_CLA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto b495db6356534fd59d7367921e97eb30 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_CLA_behav xil_defaultlib.tb_CLA xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register_logic
+Compiling module xil_defaultlib.CLA_4bits
+Compiling module xil_defaultlib.tb_CLA
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_CLA_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Alex/Desktop/EE -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Alex/Desktop/EE" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 14 16:48:20 2017...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_CLA_behav -key {Behavioral:sim_1:Functional:tb_CLA} -tclbatch {tb_CLA.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source tb_CLA.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_CLA_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183736459A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183736459A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 14 16:54:00 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1/runme.log
+[Tue Nov 14 16:54:00 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Tue Nov 14 16:56:42 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Nov 14 16:57:20 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 14 16:58:20 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Alex/Desktop/EE 316/Labs/Lab_5/lab5.2/lab5.2.runs/impl_1/CLA_4bits.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 17:02:59 2017...

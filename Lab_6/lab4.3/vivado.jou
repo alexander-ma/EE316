@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Nov 29 11:24:14 2017
+# Process ID: 14532
+# Current directory: C:/Users/Alex/Desktop/EE 316/Labs/Lab_4/lab4.3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9212 C:\Users\Alex\Desktop\EE 316\Labs\Lab_4\lab4.3\lab4.3.xpr
+# Log file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_4/lab4.3/vivado.log
+# Journal file: C:/Users/Alex/Desktop/EE 316/Labs/Lab_4/lab4.3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Alex/Desktop/EE 316/Labs/Lab_4/lab4.3/lab4.3.xpr}
+update_compile_order -fileset sources_1

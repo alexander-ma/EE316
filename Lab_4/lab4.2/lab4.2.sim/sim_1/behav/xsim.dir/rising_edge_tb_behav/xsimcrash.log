@@ -1,0 +1,7 @@
+Unable to capture context for thread 9044 in process 12388, can not generate back trace
+Exception at PC 0x00007FFFC5D4BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFFC5A51A52
+Attemped to write at address 0x00007FF814E5ABA4
+Another exception occurred while writing back trace, hence exiting
